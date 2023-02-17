@@ -1,0 +1,17 @@
+.text-center {
+  text-align: center;
+}
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active {
+  color: #fff;
+  background: #2874f0;
+  padding: 5px 6px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 4px 32px -6px #2874f0;
+  -moz-box-shadow: 0 4px 32px -6px #2874f0;
+  box-shadow: 0 4px 32px -6px #2874f0;
+}

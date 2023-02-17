@@ -1,0 +1,45 @@
+@media screen and (width <= 768px) {
+  header {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .search {
+    margin: 0;
+  }
+  .search input {
+    width: 70vw;
+  }
+  nav ul {
+    margin: 10px 0;
+  }
+}
+@media screen and (width <= 500px) {
+  .slider img {
+    width: 90vw;
+  }
+}
+@media screen and (width <= 378px) {
+  .slider {
+    margin-top: 0;
+  }
+  .slider img {
+    width: 100vw;
+  }
+  .sports_section,
+  .beauty_section,
+  .toy_section {
+    max-width: 100vw;
+    margin: auto;
+  }
+  .product__image img {
+    width: 40vw;
+  }
+  .container h2 {
+    padding-left: 15px;
+  }
+}
